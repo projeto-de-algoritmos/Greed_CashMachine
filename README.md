@@ -35,7 +35,11 @@ Depois o comando:
 
 ## Uso 
 
-Para usar o programa basta digitar o valor desejado e clicar em sacar.
+Para usar o programa basta entrar no endereço:
+
+> localhost:3000
+
+e digitar o valor desejado e clicar em sacar.
 
 
 
