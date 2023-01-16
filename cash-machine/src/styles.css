@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  header {
+    margin-top: 1rem;
+    color: #00c647;
+    padding: 0.5rem 1rem;
+  }
+  input {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-color: #00c647;
+  }
+
+  input:focus { 
+    outline: none !important;
+    border-color: #00c647;
+    box-shadow: 0 0 10px #00c647;
+ }
+  button {
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem;
+    background-color: #00c647;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .allDenoBtns {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .notas{
+    display: flex;
+    margin-top: 12rem;
+    flex-direction: column; 
+    transition: opacity 0.5s;
+    color: #00c647;
+    padding-bottom: 5rem;
+  }
+
+  .notasN{
+    display: none;
+  }
+
+  .notasImage{
+    transform: rotate(90deg);
+    margin-top: 5rem;
+
+  }
+  
+  .hide {
+    display: none;
+  }
+  
